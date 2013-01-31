@@ -3,31 +3,31 @@
 }
 
 #wrapper {
-	margin-right: auto;
-	margin-left: auto;
-	width: 800px;
-    height: 500px;
-	padding-top: 50px;
+	margin: 1px auto;
+	padding: 0;
+	width: 1000px;
+	height: 300px;
 }
 
 #main{
-    position: fixed;
-    z-index: 10;
-    background: url('../images/back.JPG');
-    width: 800px;
-    height: 800px;
+	position: relative;
+	float: left;
+    top: 30px;
+	left: 100px;
+    background: #000;
+	border-radius: 20px;
+    
 }
 
 #top{
- position: absolute;
  top: 0px;
- left: 100px;
+ left: 50px;
  width: 1000px;
  z-index: 1;
 }
 
 #mid{
- position: absolute;
+ 
  top: 620px;
  left: 0px;
  width: 1000px;
@@ -35,7 +35,7 @@
 }
 
 #bot{
- position: absolute;
+ 
  top: 1500px;
  left: 0px;
  width: 1000px;
