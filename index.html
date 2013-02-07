@@ -4,66 +4,149 @@
     <title>Matt Forster - Portfolio</title>
     <!-- Bootstrap -->
     <link href="css/bootstrap.css" rel="stylesheet" media="screen">
+
+    <style type="text/css">
+    	/* Custom Styles for Portfolio */
+			/* Nabbar customization */
+			.navbar-wrapper{
+			  position: absolute;
+			  margin-bottom: -90px;
+			  top: 40px;
+			  left: 0px;
+			  right: 0px;
+			  z-index: 10;
+			}
+
+			.navbar, .navbar-inner{
+			  border: 0;
+			  -webkit-box-shadow: 0 2px 10px rgba(0,0,0,.25);
+			     -moz-box-shadow: 0 2px 10px rgba(0,0,0,.25);
+			          box-shadow: 0 2px 10px rgba(0,0,0,.25);
+			}
+
+
+			.navbar, .brand{
+			  padding: px 10px 10px;
+			  font-size 16px;
+			  font-weight: bold;
+			  text-shadow: 0 -1px 0 rgba(0,0,0,.5);
+			}
+
+			.dropdown-menu{
+			  font-size: 12px;
+			  font-weight: normal;
+			  text-shadow: none;
+			}
+
+
+			/* Carousel Customization */
+		   .carousel-control {
+		     height: 80px;
+		     margin-top: 0;
+		     font-size: 120px;
+		     text-shadow: 0 1px 1px rgba(0,0,0,.4);
+		     background-color: transparent;
+		     border: 0;
+		   }
+
+		   .carousel-caption{
+		   	background-color: rgba(0,0,0,.25);
+		   	padding-bottom: 100px;
+		   }
+
+		   p .lead{
+		   	
+		   }
+
+    </style>
   </head>
   
   
-  <body>
-	
-	<div class="container">
-			<div class="navbar">
-				<div class="navbar-inner">
-					<a class="brand" href="#">Matt Forster</a>
-					<ul class="nav">
-					  <li class="active">
-						<a href="#">Home</a>
-					  </li>
-					  <li><a href="#">Link</a></li>
-					  <li><a href="#">Link</a></li>
-					</ul>
+	<body>
+<!-- NAVBAR --------------------------------------------------------------- -->
+		<div class="navbar-wrapper">
+			<div class="container">
+				<div class="navbar">
+					<div class="navbar-inner">
+						<a class="brand" href="#">Matt Forster</a>
+
+						<!-- Left Menu -- -->
+						<ul class="nav">
+						 	<li class="active">
+								<a href="#">Home</a>
+						 	</li>
+						 	<li>
+						 		<a class="pull-right" href="#">Contact</a>
+						 	</li>
+						</ul>
+
+						<!-- Right Menu -- -->
+						<ul class="nav pull-right">
+							<li class="dropdown">
+						 		<a class="dropdown-toggle" data-toggle="dropdown" href="#">
+						 			Projects
+						 			<b class="caret"></b>
+						 		</a>
+						 		<!-- Dropdown Menu -- -->
+						 		<ul class="dropdown-menu" role="menu">
+						 			<li><a tabindex="-1" href="#">Lab Information Indexing System</a></li>
+						 			<li><a tabindex="-1" href="#">This Website!</a></li>
+						 		</ul>
+						 	</li>
+						</ul>
+
+					</div> <!-- /inner -->
+				</div> <!-- /navbar -->
+			</div> <!-- /container -->
+		</div> <!-- /wrapper -->
+
+<!-- CAROUSEL ------------------------------------------------------------- -->
+			<div id="Carousel" class="carousel slide">
+			  <!-- Carousel items -- -->
+			  <div class="carousel-inner">
+				<div class="active item">
+					<img src="img/clouds.jpg" alt="clouds">
+					<div class="carousel-caption">
+						<p class="lead">what lovely clouds</p>
+						<p><small>very nice</small></p>
+					</div> <!-- /caption -->
+				</div> <!-- /item -->
+
+				<div class="item">
+					<img src="img/valley.jpg" alt="valley">
+					<div class="carousel-caption">
+						<p class="lead">a senic valley</p>
+						<p><small>could have a picnic</small></p>
+					</div> <!-- caption -->
+				</div> <!-- item -->
+
+				<div class="item">
+					<img src="img/water.jpg" alt="water">
+					<div class="carousel-caption">
+						<p class="lead">so very blue</p>
+						<p><small>the ocean is full of life</small></p>
+					</div> <!-- caption -->
+				</div> <!-- item -->
+
+			  </div> <!-- inner -->
+
+			  <!-- Carousel nav -- -->
+			  <a class="carousel-control left" href="#Carousel" data-slide="prev">&lsaquo;</a>
+			  <a class="carousel-control right" href="#Carousel" data-slide="next">&rsaquo;</a>
+			</div> <!-- /carousel -->
+<!-- Content -------------------------------------------------------------- -->
+		<div class="container">
+			<div class="row">
+				<div class="span12">
+					
 				</div>
-			</div>
-		<div id="Carousel" class="carousel slide">
-	  <!-- Carousel items -->
-	  <div class="carousel-inner">
-		<div class="active item">
-			<img src="img/clouds.jpg" alt="clouds">
-			<div class="carousel-caption">
-				<p class="lead"> > what lovely clouds</p>
-				<p><small>very nice</small></p>
-			</div>
-		</div>
-		<div class="item">
-			<img src="img/valley.jpg" alt="valley">
-			<div class="carousel-caption">
-				<p class="lead"> > a senic valley</p>
-				<p><small>could have a picnic</small></p>
-			</div>
-		</div>
-		<div class="item">
-			<img src="img/water.jpg" alt="water">
-			<div class="carousel-caption">
-				<p class="lead"> > so very blue</p>
-				<p><small>the ocean is full of life</small></p>
-			</div>
-		</div>
-	  </div>
-	  <!-- Carousel nav -->
-	  <a class="carousel-control left" href="#Carousel" data-slide="prev">&lsaquo;</a>
-	  <a class="carousel-control right" href="#Carousel" data-slide="next">&rsaquo;</a>
-	</div> <!-- carousel -->
+			</div> <!-- row -->
+		</div> <!-- Container -->
 		
-		<div class="row">
-			<div class="span12">
-				
-			</div>
-		</div> <!-- row -->
-	</div> <!-- Container -->
-	
-	
-	<script src="http://code.jquery.com/jquery-latest.js"></script>
-	<script src="js/bootstrap.js"></script>
-	
-	
-  </body>
+<!-- Scripts -------------------------------------------------------------- -->
+		<script src="http://code.jquery.com/jquery-latest.js"></script>
+		<script src="js/bootstrap.js"></script>
+
+	</body>
 </html>
 
