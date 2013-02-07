@@ -18,7 +18,8 @@
 			  z-index: 10;
 			}
 
-			.navbar, .navbar-inner{
+			.navbar
+			.navbar-inner{
 			  border: 0;
 			  -webkit-box-shadow: 0 2px 10px rgba(0,0,0,.25);
 			     -moz-box-shadow: 0 2px 10px rgba(0,0,0,.25);
@@ -26,7 +27,9 @@
 			}
 
 
-			.navbar, .brand{
+			.navbar 
+			.brand{
+			  color: #3299CC;
 			  padding: px 10px 10px;
 			  font-size 16px;
 			  font-weight: bold;
@@ -50,7 +53,8 @@
 		     border: 0;
 		   }
 
-		   .carousel, .item{
+		   .carousel,
+		   .item{
 		   	max-height: 500px;
 		   	-webkit-box-shadow: 0 4px 10px rgba(0,0,0,.25);
 			      -moz-box-shadow: 0 4px 10px rgba(0,0,0,.25);
@@ -66,8 +70,14 @@
 		   /*text customization*/
 		   .feature{
 		   	font-size: 45px;
-		   	font-weight: 200;
+		   	font-weight: bold;
 		   	line-height: 35px;
+		   }
+
+		   #smaller{
+		   	font-weight: normal;
+		   	font-size: 32px;
+		   	line-height: 0px;
 		   }
 
 
@@ -76,6 +86,7 @@
 		   	max-height: 100px;
 		   	max-width: 100px;
 		   	border-radius: 20px;
+		   	padding-top: 10px;
 		   }
 
 		   #center{
@@ -179,7 +190,7 @@
 			<div class="row" id="center">
 				<a name="contact"></a>
 				<div class="span3">
-					<p class="feature">Contact Me, <span class="muted"><small>I'd love to hear from you.</small></span></p>
+					<p class="feature">Contact Me, <span class="muted" id="smaller">I'd love to hear from you.</span></p>
 				</div>
 				<div class="span3">
 					<a target="_blank" href="http://linkedin.ca/in/mattforster"><span class="hint hint--right" data-hint="Linkedin!"><img class="contact" src="img/linkedin.png" alt="linked in"></span></a>
@@ -204,8 +215,7 @@
 <!-- Scripts -------------------------------------------------------------- -->
 		<script src="http://code.jquery.com/jquery-latest.js"></script>
 		<script src="js/bootstrap.js"></script>
-		<script type="text/javascript"> //XXX ISNT INIT?!
-			//alert('start');
+		<script type="text/javascript">
 			$(document).ready(function(){
    			$('.carousel').carousel({
    				interval: 7000

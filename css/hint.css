@@ -120,7 +120,7 @@
  * right tootip
  */
 .hint--right:before {
-  margin-left: -12px;
+  margin-left: -10px;
   margin-bottom: -6px; }
 .hint--right:after {
   margin-bottom: -14px; }
