@@ -1,14 +1,15 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Matt Forster - Portfolio</title>
+    <title>Matt Forster - Software Designer</title>
     <!-- Bootstrap -->
     <link href="css/bootstrap.css" rel="stylesheet" media="screen">
     <style type="text/css">
     	/* Custom Styles for Portfolio */
+
 			/* Nabbar customization */
 			.navbar-wrapper{
-			  position: absolute;
+			  position: fixed;
 			  margin-bottom: -90px;
 			  top: 40px;
 			  left: 0px;
@@ -60,8 +61,30 @@
 		   	padding-bottom: 100px;
 		   }
 
-		   p .lead{
-		   	
+
+		   /*text customization*/
+		   .feature{
+		   	font-size: 45px;
+		   	font-weight: 200;
+		   	line-height: 35px;
+		   }
+
+
+		   /*img customization*/
+		   .contact{
+		   	max-height: 100px;
+		   	max-width: 100px;
+		   	border-radius: 20px;
+		   }
+
+		   #center{
+		   	text-align: center;
+		   	padding-bottom: 25px;
+		   }
+
+		   /*temp styles*/
+		   #space{
+		   	height: 1000px;
 		   }
 
     </style>
@@ -83,7 +106,7 @@
 								<a href="#">Home</a>
 						 	</li>
 						 	<li>
-						 		<a class="pull-right" href="#">Contact</a>
+						 		<a class="pull-right" href="#contact">Contact</a>
 						 	</li>
 						</ul>
 
@@ -141,13 +164,37 @@
 			  <a class="carousel-control left" href="#Carousel" data-slide="prev">&lsaquo;</a>
 			  <a class="carousel-control right" href="#Carousel" data-slide="next">&rsaquo;</a>
 			</div> <!-- /carousel -->
+
 <!-- Content -------------------------------------------------------------- -->
 		<div class="container">
-			<div class="row">
-				<div class="span12">
-					
+
+			<!-- temp spacing -->
+			<div class="row" id="space"></div>
+
+			<!-- Contact Row -- -->
+			<div class="row" id="center">
+				<a name="contact"></a>
+				<div class="span3">
+					<p class="feature">Contact Me, <span class="muted"><small>I'd love to hear from you.</small></span></p>
+				</div>
+				<div class="span3">
+					<a href="http://linkedin.ca/in/mattforster"><img class="contact" src="img/linkedin.png" alt="linked in"></a>
+				</div>
+				<div class="span3">
+					<a href="http://twitter.com/frostyforster"><img class="contact" src="img/twitter.png" alt="Twitter"></a>
+				</div>
+				<div class="span3">
+					<a href="mailto:forster.matth@gmail.com"><img class="contact" src="img/Gmail.png" alt="gmail"></a>
 				</div>
 			</div> <!-- row -->
+
+			<!-- footer -->
+			<div class="row" id="center" name-"foot">
+				<div class="span12">
+					<p><small>Styled with <a href="http://http://twitter.github.com/bootstrap/">Twitter Bootstrap.</a> The rest was imagineered by <a href="http://www.mattforster.ca">Matt Forster.</a></small></p>
+				</div>
+			</div>
+
 		</div> <!-- Container -->
 		
 <!-- Scripts -------------------------------------------------------------- -->
