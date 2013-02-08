@@ -33,7 +33,7 @@
 			  padding: px 10px 10px;
 			  font-size 16px;
 			  font-weight: bold;
-			  text-shadow: 0 -1px 0 rgba(0,0,0,.5);
+			  text-shadow: none;
 			}
 
 			.dropdown-menu{
@@ -70,12 +70,12 @@
 		   /*text customization*/
 		   .feature{
 		   	font-size: 45px;
-		   	font-weight: bold;
+		   	font-weight: 600;
 		   	line-height: 35px;
 		   }
 
 		   #smaller{
-		   	font-weight: normal;
+		   	font-weight: 500;
 		   	font-size: 32px;
 		   	line-height: 0px;
 		   }
@@ -86,10 +86,9 @@
 		   	max-height: 100px;
 		   	max-width: 100px;
 		   	border-radius: 20px;
-		   	padding-top: 10px;
 		   }
 
-		   #center{
+		   .center{
 		   	text-align: center;
 		   	padding-bottom: 25px;
 		   }
@@ -103,7 +102,7 @@
   </head>
   
   
-	<body>
+	<body data-spy="scroll" data-target=".navbar">
 
 <!-- NAVBAR --------------------------------------------------------------- -->
 		<div class="navbar-wrapper">
@@ -115,7 +114,7 @@
 						<!-- Left Menu -- -->
 						<ul class="nav">
 						 	<li class="active">
-								<a href="#">Home</a>
+								<a href="#home">Home</a>
 						 	</li>
 						 	<li>
 						 		<a class="pull-right" href="#contact">Contact</a>
@@ -146,7 +145,7 @@
 		</div> <!-- /navbar-wrapper -->
 
 <!-- CAROUSEL ------------------------------------------------------------- -->
-			<div id="Carousel" class="carousel slide">
+			<div id="home" class="carousel slide">
 			  <!-- Carousel items -- -->
 			  <div class="carousel-inner">
 				<div class="active item">
@@ -187,8 +186,7 @@
 			<div class="row" id="space"></div>
 
 			<!-- Contact Row -- -->
-			<div class="row" id="center">
-				<a name="contact"></a>
+			<div class="row center" id="contact">
 				<div class="span3">
 					<p class="feature">Contact Me, <span class="muted" id="smaller">I'd love to hear from you.</span></p>
 				</div>
@@ -204,7 +202,7 @@
 			</div> <!-- row -->
 
 			<!-- footer -->
-			<div class="row" id="center" name-"foot">
+			<div class="row center" id="foot" name-"foot">
 				<div class="span12">
 					<p><small>Styled with <a href="http://http://twitter.github.com/bootstrap/">Twitter Bootstrap.</a> The rest was imagineered by <a href="#">Matt Forster.</a></small></p>
 				</div>
