@@ -12,7 +12,7 @@
 	<body data-spy="scroll" data-target=".navbar">
 
 <!-- NAVBAR --------------------------------------------------------------- -->
-				<div class="navbar-wrapper">
+		<div class="navbar-wrapper">
 			<div class="container">
 				<div class="navbar">
 					<div class="navbar-inner">
@@ -20,14 +20,14 @@
 
 						<!-- Left Menu -- -->
 						<ul class="nav">
-						 	<li class="active">
-						 		<a href="#top">Current Projects</a>
+						 	<li>
+						 		<a href="index.html">Current Projects</a>
 						 	</li>
 						 	<li>
 						 		<a href="past.html">Past Projects</a>
 						 	</li>
-						 	<li>
-						 		<a href="free.html">Freelancing</a>
+						 	<li class="active">
+						 		<a href="#top">Freelancing</a>
 						 	</li>
 						 	<li>
 						 		<a href="/blog">Blog</a>
@@ -50,35 +50,15 @@
 			<div id="top" class="carousel slide">
 			  <!-- Carousel items -- -->
 			  <div class="carousel-inner">
-				<div class="active item">
-					<img src="img/clouds.jpg" alt="clouds">
-					<div class="carousel-caption">
-						<p class="lead"><span class="highlight1">what lovely clouds</span></p>
-						<p><small>very nice</small></p>
-					</div> <!-- /caption -->
-				</div> <!-- /item -->
 
-				<div class="item">
+				<div class=" active item">
 					<img src="img/valley.jpg" alt="valley">
 					<div class="carousel-caption">
-						<p class="lead"><span class="highlight1">a senic valley</span></p>
-						<p><small>could have a picnic</small></p>
+						<p class="lead"><span class="highlight3">Freelancing</span></p>
+						<p><small>Placeholder</small></p>
 					</div> <!-- caption -->
 				</div> <!-- item -->
-
-				<div class="item">
-					<img src="img/water.jpg" alt="water">
-					<div class="carousel-caption">
-						<p class="lead"><span class="highlight1">so very blue</span></p>
-						<p><small>the ocean is full of life</small></p>
-					</div> <!-- caption -->
-				</div> <!-- item -->
-
 			  </div> <!-- inner -->
-
-			  <!-- Carousel nav -- -->
-			  <a class="carousel-control left" href="#top" data-slide="prev">&lsaquo;</a>
-			  <a class="carousel-control right" href="#top" data-slide="next">&rsaquo;</a>
 			</div> <!-- /carousel -->
 
 <!-- Content -------------------------------------------------------------- -->
@@ -87,20 +67,20 @@
 			<div class="row center">
 				<div class="span12">
 					<p class="feature">Hello! 
-						<span class="muted smaller" >My name is <span class="highlight1">Matt</span>, and I am a programmer.
-						I'm glad your here! This is my <span class="highlight1"> Portfolio</span>,  feel free to look around.
+						<span class="muted smaller" >My name is <span class="highlight3">Matt</span>, and I am a programmer.
+						I'm glad your here! This is my <span class="highlight3"> Portfolio</span>,  feel free to look around.
 					</p>  
 				</div>
 			</div>
 			<div class="row center">
-				<div class="span4 feature highlight1" id="link1">
-					<p>Current Projects</p>
+				<div class="span4 feature mouse-over" id="link1">
+					<p><a href="index.html">Current Projects</a></p>
 				</div>
 				<div class="span4 feature mouse-over" id="link2">
 					<p><a href="past.html">Past<br> Projects</a></p>
 				</div>
-				<div class="span4 feature mouse-over" id="link3">
-					<p><a href="free.html">Freelancing</a>  <span class="smaller muted"> Looking to hire me?</span></p>
+				<div class="span4 feature highlight3" id="link3">
+					<p>Freelancing  <span class="smaller muted"> Looking to hire me?</span></p>
 				</div>
 			</div>
 			<div class="divider"><hr></div>
@@ -159,11 +139,7 @@
 		<script src="http://code.jquery.com/jquery-latest.js"></script>
 		<script src="js/bootstrap.js"></script>
 		<script type="text/javascript">
-			$(document).ready(function(){
-   			$('.carousel').carousel({
-   				interval: 7000
-   			});
-  			});
+
 		</script>
 	</body>
 </html>

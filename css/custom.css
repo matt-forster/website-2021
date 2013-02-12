@@ -1,0 +1,159 @@
+/* Custom Styles for Portfolio */
+
+    		/*general styles*/
+    		.center{
+		   	text-align: center;
+		   	padding-bottom: 25px;
+
+		   }
+
+		   .divider{
+		   	margin-top: 50px;
+		   }
+
+			/* Navbar customization */
+			.navbar-wrapper{
+			  position: fixed;
+			  margin-bottom: -90px;
+			  top: 40px;
+			  left: 0px;
+			  right: 0px;
+			  z-index: 10;
+			}
+
+			.navbar
+			.navbar-inner{
+			  border: 0;
+			  -webkit-box-shadow: 0 2px 10px rgba(0,0,0,.25);
+			     -moz-box-shadow: 0 2px 10px rgba(0,0,0,.25);
+			          box-shadow: 0 2px 10px rgba(0,0,0,.25);
+			}
+
+
+			.navbar 
+			.brand{
+			  padding: px 10px 10px;
+			  font-size 16px;
+			  font-weight: bold;
+			  text-shadow: none;
+			}
+
+			.dropdown-menu{
+			  font-size: 12px;
+			  font-weight: normal;
+			  text-shadow: none;
+			}
+
+
+			/* Carousel Customization */
+		   .carousel-control {
+		     height: 80px;
+		     margin-top: 0;
+		     font-size: 120px;
+		     text-shadow: 0 1px 1px rgba(0,0,0,.4);
+		     background-color: transparent;
+		     border: 0;
+		   }
+
+		   .carousel img{
+		   	min-width: 100%;
+		   	top: 0;
+		   	left: 0;
+		   	height: 500px;
+		   }
+
+		   .carousel,
+		   .item{
+		   	-webkit-box-shadow: 0 4px 10px rgba(0,0,0,.25);
+			      -moz-box-shadow: 0 4px 10px rgba(0,0,0,.25);
+			           box-shadow: 0 4px 10px rgba(0,0,0,.5);
+		   }
+
+		   .carousel-caption{
+		   	font-size: 20px;
+		   	background-color: rgba(0,0,0,.2);
+		   	padding-bottom: 100px;
+		   	padding-left: 100px;
+		   	text-shadow: 0 1px 1px rgba(0,0,0,.5);
+		   }
+
+
+		   /*text customization*/
+		   .feature{
+		   	font-size: 45px;
+		   	font-weight: 600;
+		   	line-height: 35px;
+
+		   }
+
+		   .smaller{
+		   	font-weight: 500;
+		   	font-size: 30px;
+		   	line-height: 0px;
+		   }
+
+		   .lead{
+		   	font-size: 30px;
+		   	font-weight: 500px;
+		   	margin: 0;
+		   	line-height: 1.25;
+		   	text-shadow: 0 1px 1px rgba(0,0,0,.3);
+		   }
+
+		   .highlight1{
+		   	color: #0088cc;
+		   }
+
+		   .highlight2{
+		   	color: #95C325;
+		   }
+
+		   .highlight3{
+		   	color: #CC3300;
+		   }
+
+		   .row{
+		   	margin-top: 30px;
+		   }
+
+		   .mouse-over a{
+		   	color: inherit;
+		   }
+
+		   #link1 a:hover{
+		   	color: #0088cc;
+		   	text-decoration: none;
+		   }
+
+		   #link2 a:hover{
+		   	color: #95C325;
+		   	text-decoration: none;
+		   }
+
+		   #link3 a:hover{
+		   	color: #CC3300;
+		   	text-decoration: none;
+		   }
+
+
+		   /*img customization*/
+		   .contact{
+		   	max-height: 100px;
+		   	max-width: 100px;
+		   	border-radius: 20px;
+		   }
+
+		   #twit{
+		   	padding-top: 6px;
+		   	max-height: 90px;
+		   }
+
+		   #linked{
+		   	padding-top: 2px;
+		   	max-height: 98px;
+		   }
+
+		   /*temp styles*/
+		   #space{
+		   	height: 1000px;
+		   }
