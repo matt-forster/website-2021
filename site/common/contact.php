@@ -5,7 +5,7 @@
 	</div>
 
 <!-- Contact Row -- -->
-		
+	<div class="divider"><hr></div>
 	<div class="row center" id="contact">
 		<div class="span3">
 			<p class="feature">Contact Me, <span class="muted smaller">I'd love to hear from you.</span></p>

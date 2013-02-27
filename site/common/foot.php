@@ -13,7 +13,7 @@
 		</div>
 	</div>
 
-</div> <!-- Container -->
+</div> <!-- /container -->
 		
 <!-- Scripts -------------------------------------------------------------- -->
 		<script src="http://code.jquery.com/jquery-latest.js"></script>

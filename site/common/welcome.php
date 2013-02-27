@@ -5,7 +5,7 @@
 				<?php 
 					echo
 						'<span class="muted smaller" >My name is <span class="'.$highlight.'">Matt</span>, and I am a <span class="'.$highlight.'">programmer</span>.
-						 I\'m glad your here! This is my <span class="'.$highlight.'"> Portfolio</span>,  feel free to look around.'
+						 I\'m glad you\'re here! This is my <span class="'.$highlight.'"> Portfolio</span>,  feel free to look around.'
 					 ;
 				?>
 			</p>  
