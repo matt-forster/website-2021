@@ -4,7 +4,7 @@
 	<div class="container">
 		<div class="navbar">
 			<div class="navbar-inner">
-				<a class="brand" href="index.html">Matt Forster</a>
+				<a class="brand" href="/index.php">Matt Forster</a>
 
 				<!-- Left Menu -- -->
 				<ul class="nav">

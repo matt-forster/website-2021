@@ -19,10 +19,10 @@
 						<p>Current Projects</p>
 					</div>
 					<div class="span4 feature mouse-over" id="link2">
-						<p><a href="../past.php">Past<br> Projects</a></p>
+						<p><a href="past.php">Past<br> Projects</a></p>
 					</div>
 					<div class="span4 feature mouse-over" id="link3">
-						<p><a href="../free.php">Freelancing</a>  <span class="smaller muted"> Looking to hire me?</span></p>
+						<p><a href="free.php">Freelancing</a>  <span class="smaller muted"> Looking to hire me?</span></p>
 					</div>
 				</div>'
 			;
@@ -37,7 +37,7 @@
 						<p>Past<br> Projects</p>
 					</div>
 					<div class="span4 feature mouse-over" id="link3">
-						<p><a href="../free.php">Freelancing</a> <span class="smaller muted"> Looking to hire me?</span></p>
+						<p><a href="free.php">Freelancing</a> <span class="smaller muted"> Looking to hire me?</span></p>
 					</div>
 				</div>'
 			;
@@ -46,10 +46,10 @@
 			echo 
 				'<div class="row center">
 					<div class="span4 feature mouse-over" id="link1">
-						<p><a href="../current.php">Current Projects</a></p>
+						<p><a href="current.php">Current Projects</a></p>
 					</div>
 					<div class="span4 feature mouse-over" id="link2">
-						<p><a href="../past.php">Past<br> Projects</a></p>
+						<p><a href="past.php">Past<br> Projects</a></p>
 					</div>
 					<div class="span4 feature highlight3" id="link3">
 						<p>Freelancing  <span class="smaller muted"> Looking to hire me?</span></p>
