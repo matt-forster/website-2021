@@ -1,7 +1,20 @@
+
+
+
+
+
+
 <div class="container">
-<!-- About Row -->
-	<div id="about">
-		<p>Hello there</p>
+<!-- About Row -- -->
+	<div class="row" id="about">
+		<div class="span8">
+			<p>
+				<span class="lead">Innovation, Quality and Style.</span> This is the paragraph about me.
+			</p>
+		</div>
+		<div class="span4">
+			<img src="../img/me.jpg" class="img-polaroid" alt="Matt Forster"> 
+		</div>
 	</div>
 
 <!-- Contact Row -- -->
@@ -13,21 +26,21 @@
 		<div class="span3">
 			<a target="_blank" href="http://linkedin.ca/in/mattforster">
 				<span class="hint hint--right" data-hint="Linkedin!">
-				 <img id="linked" class="contact" src="../../img/linkedin.png" alt="linked in">
+				 <img id="linked" class="contact" src="../img/linkedin.png" alt="linked in">
 				</span>
 			</a>
 		</div>
 		<div class="span3">
 			<a target="_blank" href="http://twitter.com/frostyforster">
 				<span class="hint hint--right" data-hint="Twitter!">
-					<img id="twit" class="contact" src="../../img/twitter.png" alt="Twitter">
+					<img id="twit" class="contact" src="../img/twitter.png" alt="Twitter">
 				</span>
 			</a>
 		</div>
 		<div class="span3">
 			<a target="_blank" href="mailto:forster.matth@gmail.com">
 				<span class="hint hint--right" data-hint="Email!">
-					<img class="contact" src="../../img/Gmail.png" alt="Gmail">
+					<img class="contact" src="../img/Gmail.png" alt="Gmail">
 				</span>
 			</a>
 		</div>

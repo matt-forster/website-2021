@@ -15,33 +15,33 @@
 						 		<a href="#top">Current Projects</a>
 						 	</li>
 						 	<li>
-						 		<a href="../../site/past.php">Past Projects</a>
+						 		<a href="past.php">Past Projects</a>
 						 	</li>
 						 	<li>
-						 		<a href="../../site/free.php">Freelancing</a>
+						 		<a href="free.php">Freelancing</a>
 						 	</li>'
 						 	;
 						}
 						if($page == "past"){
 							echo 
 							'<li>
-						 		<a href="../../site/current.php">Current Projects</a>
+						 		<a href="current.php">Current Projects</a>
 						 	</li>
 						 	<li class="active">
 						 		<a href="#top">Past Projects</a>
 						 	</li>
 						 	<li>
-						 		<a href="../../site/free.php">Freelancing</a>
+						 		<a href="free.php">Freelancing</a>
 						 	</li>'
 						 	;
 						}
 						if($page == "free"){
 							echo 
 							'<li>
-						 		<a href="../../site/current.php">Current Projects</a>
+						 		<a href="current.php">Current Projects</a>
 						 	</li>
 						 	<li>
-						 		<a href="../../site/past.php">Past Projects</a>
+						 		<a href="past.php">Past Projects</a>
 						 	</li>
 						 	<li class="active">
 						 		<a href="#top">Freelancing</a>
