@@ -13,7 +13,7 @@
 			</p>
 		</div>
 		<div class="span4">
-			<img src="../img/me.jpg" class="img-polaroid" alt="Matt Forster"> 
+			<img src="../img/me.jpg" class="img-polaroid contact" alt="Matt Forster"> 
 		</div>
 	</div>
 
