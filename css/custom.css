@@ -32,8 +32,8 @@
 
 			.navbar 
 			.brand{
-			  padding: px 10px 10px;
-			  font-size 16px;
+			  padding: 10px 10px 10px;
+			  font-size: 16px;
 			  font-weight: bold;
 			  text-shadow: none;
 			}
@@ -94,7 +94,7 @@
 
 		   .lead{
 		   	font-size: 30px;
-		   	font-weight: 500px;
+		   	font-weight: 500;
 		   	margin: 0;
 		   	line-height: 1.25;
 		   	text-shadow: 0 1px 1px rgba(0,0,0,.3);
