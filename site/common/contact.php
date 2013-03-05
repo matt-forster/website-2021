@@ -9,7 +9,16 @@
 	<div class="row" id="about">
 		<div class="span8">
 			<p>
-				<span class="lead">Innovation, Quality and Style.</span> This is the paragraph about me.
+				<span class="lead">Innovation, Quality and Style.</span> <br>
+				Creating cool things, solving problems as well as maintaining good code keeps me happy and motivated.
+				I am interested in web development, application development, and other projects that allow me to create and 
+				help people.
+
+				I've dreamed of working for NASA, and I've made it a goal in my life to help the human race 
+				move forward in some significant way.
+
+				Just Finishing my Computer Information Technology diploma at the Lethbridge College, I am planning on attending the
+				University of Lethbridge and finishing my degree.
 			</p>
 		</div>
 		<div class="span4">
