@@ -2,27 +2,31 @@
 
 
 
-
-
 <div class="container">
 <!-- About Row -- -->
 	<div class="row" id="about">
 		<div class="span8">
 			<p>
 				<span class="lead">Innovation, Quality and Style.</span> <br>
-				Creating cool things, solving problems as well as maintaining good code keeps me happy and motivated.
+				<?php
+                    echo '<span class="'.$highlight.'">Creating awesome things, solving problems, and maintaining good code </span> keeps me happy and motivated.
 				I am interested in web development, application development, and other projects that allow me to create and 
 				help people.<br><br>
 
-				I've dreamed of working for NASA, and I've made it a goal in my life to help the human race 
-				move forward in some significant way. <br><br>
+				I\'ve dreamed of working for NASA, and I\'ve made it a goal in my life to <span class="'.$highlight.'"> help the human race 
+				move forward in some significant way</span>. <br><br>
 
 				Just Finishing my Computer Information Technology diploma at the Lethbridge College, I am planning on attending the
-				University of Lethbridge and finishing my degree.
+				University of Lethbridge and finishing my bachelors degree.
+                    
+                    ';
+                ?>
 			</p>
 		</div>
 		<div class="span4">
-			<img src="../img/me.jpg" class="img-polaroid center" id="avatar" alt="Matt Forster"> 
+            <div class="center">
+			    <img src="../img/me.jpg" class="img-polaroid" id="avatar" alt="Matt Forster">
+            </div> 
 		</div>
 	</div>
 
