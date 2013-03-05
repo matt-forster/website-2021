@@ -22,7 +22,7 @@
 			</p>
 		</div>
 		<div class="span4">
-			<img src="../img/me.jpg" class="img-polaroid contact" alt="Matt Forster"> 
+			<img src="../img/me.jpg" class="img-polaroid" id="avatar" alt="Matt Forster"> 
 		</div>
 	</div>
 

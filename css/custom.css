@@ -138,8 +138,8 @@
 
 		   /*img customization*/
 		   .contact{
-		   	max-height: 500px;
-		   	max-width: 400px;
+		   	max-height: 100px;
+		   	max-width: 100px;
 		   	border-radius: 20px;
 		   }
 
@@ -156,4 +156,9 @@
 		   /*temp styles*/
 		   #space{
 		   	height: 1000px;
+		   }
+
+		   #avatar{
+		   	max-height: 200px;
+		   	max-width: 175px;
 		   }
