@@ -4,7 +4,7 @@
 
 <div class="container">
 <!-- About Row -- -->
-	<div class="row" id="about">
+	<div class="row" id="about"><hr>
 		<div class="span8">
 			<p>
 				<span class="lead">Innovation, Quality and Style.</span> <br>
@@ -57,5 +57,6 @@
 				</span>
 			</a>
 		</div>
+        
 	</div> <!-- row -->
 </div> <!-- /container -->

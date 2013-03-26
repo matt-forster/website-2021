@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Matt Forster - Software Designer</title>
+    <title>Matt Forster - Software Dev</title>
     <!-- Bootstrap -->
     <link href="../css/bootstrap.css" rel="stylesheet" media="screen">
     <link href="../css/hint.css" 	  rel="stylesheet" media="screen">
