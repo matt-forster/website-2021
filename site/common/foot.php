@@ -6,7 +6,7 @@
 			<p>
 				<small>
 					Styled with <a target="_blank" href="http://twitter.github.com/bootstrap/">Twitter Bootstrap.</a> 
-					The rest was imagineered by <a target="_blank" href="#">Matt Forster.</a>
+					The rest was imagineered by <a href="#">Matt Forster.</a>
 					Source code hosted on <a target="_blank" href="https://github.com/forstermatth/Portfolio">GitHub.</a>
 				</small>
 			</p>
