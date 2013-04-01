@@ -10,7 +10,7 @@
 	  <!-- Carousel items -- -->
 	  <div class="carousel-inner">
 		<div class="active item">
-			<a href="#LIIS"> <img src="../img/liislogo.png" alt="clouds"></a>
+			<a href="#LIIS"> <img src="../img/liissilde.png" alt="clouds"></a>
 			<div class="carousel-caption">
 				<p class="lead"><span class="highlight1">Laboratory Information Indexing System</span></p>
 				<p><small>An ongoing project, for the Lethbridge Federal Research Center</small></p>
