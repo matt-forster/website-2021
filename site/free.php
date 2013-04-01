@@ -10,10 +10,10 @@
 	  <!-- Carousel items -- -->
 	  <div class="carousel-inner">
 		<div class="active item">
-			<img src="../img/valley.jpg" alt="valley">
+			<img src="../img/Skills.jpg" alt="valley">
 			<div class="carousel-caption">
 				<p class="lead"><span class="highlight3">Freelancing</span></p>
-				<p><small>Placeholder</small></p>
+				<p><small>Looking to hire me? Read on!</small></p>
 			</div> <!-- /caption -->
 		</div> <!-- /item -->
 	  </div> <!-- /inner -->
