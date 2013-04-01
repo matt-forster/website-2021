@@ -10,10 +10,10 @@
 	  <!-- Carousel items -- -->
 	  <div class="carousel-inner">
 		<div class="active item">
-			<img src="../img/clouds.jpg" alt="clouds">
+			<a href="#LIIS"> <img src="../img/liislogo.png" alt="clouds"></a>
 			<div class="carousel-caption">
-				<p class="lead"><span class="highlight1">First Current Project</span></p>
-				<p><small>Placeholder</small></p>
+				<p class="lead"><span class="highlight1">Laboratory Information Indexing System</span></p>
+				<p><small>An ongoing project, for the Lethbridge Federal Research Center</small></p>
 			</div> <!-- /caption -->
 		</div> <!-- /item -->
 
@@ -50,7 +50,7 @@
 
     <!-- LIIS -->
     <div class="row"><hr>
-	    <div class="span8">
+	    <div class="span8" id="LIIS">
             <span class="feature">LIIS </span><span class="muted smaller">Lab Information Indexing System</span>
             <p class="desc"><strong>The lab information indexing system is my first large projects. </strong>Created for the Lethbridge Research Center, Aliquam venenatis adipiscing sem, at accumsan neque gravida non.<br><br> Nulla nec eros at nibh vulputate dignissim vel vehicula dui. Proin scelerisque tristique orci id semper. 
                 Aliquam erat volutpat. <span class="highlight1">Maecenas ipsum turpis,</span> Donec vel diam lorem.<br> pretium vel vehicula a, commodo ut nunc. </p>
