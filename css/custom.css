@@ -13,7 +13,7 @@
 
 /* Navbar customization */
 .navbar-wrapper{
-	position: absolute;
+	position: fixed;
 	margin-bottom: -90px;
 	top: 40px;
 	left: 0px;
