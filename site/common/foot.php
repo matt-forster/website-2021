@@ -1,4 +1,7 @@
 <!-- footer -->
+
+<div class="space"></div>
+
 <div class="container">
 	<div class="divider"><hr></div>
 	<div class="row center" id="foot">

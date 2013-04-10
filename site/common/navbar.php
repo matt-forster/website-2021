@@ -57,10 +57,7 @@
 				<!-- Right Menu -- -->
 				<ul class="nav pull-right">
 					<li>
-				 		<a href="#about">About</a>
-				 	</li>
-					<li>
-				 		<a href="#contact">Contact</a>
+				 		<a href="#contact">About & Contact</a>
 				 	</li>
 				</ul>
 

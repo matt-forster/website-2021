@@ -4,7 +4,7 @@
 
 <div class="container">
 <!-- About Row -- -->
-	<div class="row" id="about"><hr>
+	<div class="row" id="contact"><hr>
 		<div class="span8">
 			<p>
 				<span class="lead">Innovation, Quality and Style.</span> <br>
@@ -32,7 +32,7 @@
 
 <!-- Contact Row -- -->
 	<div class="divider"><hr></div>
-	<div class="row center" id="contact">
+	<div class="row center">
 		<div class="span3">
 			<p class="feature">Contact Me, <span class="muted smaller">I'd love to hear from you.</span></p>
 		</div>
@@ -59,4 +59,7 @@
 		</div>
         
 	</div> <!-- row -->
+	<div class="row center" id="contacttext">
+		<p>Contact me via <a href="http://linkedin.ca/in/mattforster"target="_blank">LinkedIn</a>, <a href="http://twitter.com/frostyforster" target="_blank">Twitter</a> or <a href="mailto:forster.matth@gmail.com" target="_blank">eMail</a>.
+	</div>
 </div> <!-- /container -->
