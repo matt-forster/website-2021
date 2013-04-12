@@ -64,6 +64,13 @@
 
 
 /* Carousel Customization */
+.car-back{
+    position: absolute;
+    min-width: 100%;
+    height: auto;
+    background-color: #FFF;
+}
+
 .carousel-control {
 	height: 80px;
 	margin-top: 0;
@@ -78,7 +85,6 @@
     top: 0;
     left: 0;
     height: auto;
-    min-height: 300px;
 }
 
 .carousel,

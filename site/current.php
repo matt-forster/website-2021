@@ -6,6 +6,7 @@
 ?>
 
 <!-- CAROUSEL ------------------------------------------------------------- -->
+    <div class="car-back"></div>
 	<div id="top" class="carousel slide">
 	  <!-- Carousel items -- -->
 	  <div class="carousel-inner">
