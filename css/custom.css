@@ -19,6 +19,10 @@
 }
 
 /*general styles*/
+.body{
+    margin-top: 40px;   
+}
+
 .center{
     text-align: center;
     padding-bottom: 25px;
@@ -188,10 +192,6 @@ li {
 
 #contacttext{
     margin-top: -20px;
-}
-
-#blurb{
-    margin-top: 30px;
 }
 
 /*img customization*/
