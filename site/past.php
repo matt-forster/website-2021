@@ -6,16 +6,14 @@
 ?>
 
 <!-- CAROUSEL ------------------------------------------------------------- -->
-	<div id="top">
-        <div class="carousel slide">
-            <!-- Carousel items -- -->
-            <div class="carousel-inner">
-                <div class="active item">
-                    <img src="../img/intropast.jpg" alt="Matt Forster">
-                </div> <!-- /item -->
-            </div> <!-- /inner -->
-        </div> <!-- /carousel -->
-    </div>
+	<div id="top" class="carousel slide">
+	  <!-- Carousel items -- -->
+	  <div class="carousel-inner">
+		<div class="active item">
+			<img src="../img/intropast.jpg" alt="Matt Forster">
+		</div> <!-- /item -->
+	  </div> <!-- /inner -->
+	</div> <!-- /carousel -->
 
 <?php
 	include 'common/welcome.php';

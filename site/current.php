@@ -6,25 +6,23 @@
 ?>
 
 <!-- CAROUSEL ------------------------------------------------------------- -->
-    <div id="top">
-        <div class="carousel slide">
-          <!-- Carousel items -- -->
-          <div class="carousel-inner">
-            <div class="active item">
-                <img src="../img/introcurr.jpg" alt="Matt Forster">
-            </div> <!-- /item -->
-          
-            <div class="item">
-                <a href="#LIIS"> <img src="../img/liisslide.jpg" alt="Lab Information Indexing System"></a>
-            </div> <!-- /item -->
-            
-          </div> <!-- /inner -->
-    
-          <!-- Carousel nav -- -->
-          <a class="carousel-control left" href="#top" data-slide="prev">&lsaquo;</a>
-          <a class="carousel-control right" href="#top" data-slide="next">&rsaquo;</a>
-        </div> <!-- /carousel -->
-    </div>
+	<div id="top" class="carousel slide">
+	  <!-- Carousel items -- -->
+	  <div class="carousel-inner">
+      	<div class="active item">
+			<img src="../img/introcurr.jpg" alt="Matt Forster">
+		</div> <!-- /item -->
+      
+		<div class="item">
+			<a href="#LIIS"> <img src="../img/liisslide.jpg" alt="Lab Information Indexing System"></a>
+		</div> <!-- /item -->
+        
+	  </div> <!-- /inner -->
+
+	  <!-- Carousel nav -- -->
+	  <a class="carousel-control left" href="#top" data-slide="prev">&lsaquo;</a>
+	  <a class="carousel-control right" href="#top" data-slide="next">&rsaquo;</a>
+	</div> <!-- /carousel -->
 
 <?php
 	include 'common/welcome.php';
