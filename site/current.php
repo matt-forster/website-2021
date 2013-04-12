@@ -9,26 +9,14 @@
 	<div id="top" class="carousel slide">
 	  <!-- Carousel items -- -->
 	  <div class="carousel-inner">
-		<div class="active item">
+      	<div class="active item">
+			<a href="#LIIS"> <img src="../img/intro.jpg" alt="clouds"></a>
+		</div> <!-- /item -->
+      
+		<div class="item">
 			<a href="#LIIS"> <img src="../img/liisslide.jpg" alt="clouds"></a>
 		</div> <!-- /item -->
-
-		<div class="item">
-			<img src="../img/valley.jpg" alt="valley">
-			<div class="carousel-caption">
-				<p class="lead"><span class="highlight1">Announcement with a link to somewhere</span></p>
-				<p><small>Placeholder</small></p>
-			</div> <!-- /caption -->
-		</div> <!-- /item -->
-
-		<div class="item">
-			<img src="../img/water.jpg" alt="water">
-			<div class="carousel-caption">
-				<p class="lead"><span class="highlight1">Professional Photo</span></p>
-				<p><small>Placeholder</small></p>
-			</div> <!-- /caption -->
-		</div> <!-- /item -->
-
+        
 	  </div> <!-- /inner -->
 
 	  <!-- Carousel nav -- -->
