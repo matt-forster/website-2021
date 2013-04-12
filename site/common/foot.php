@@ -19,8 +19,13 @@
 </div> <!-- /container -->
 		
 <!-- Scripts -------------------------------------------------------------- -->
-		<script src="http://code.jquery.com/jquery-latest.js"></script>
-		<script src="../js/bootstrap.js"></script>
+		<script src="js/vendor/bootstrap.min.js"></script>
+        
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+        <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.9.1.min.js"><\/script>')</script>
+        <script src="js/vendor/plugins.js"></script>
+        <script src="js/main.js"></script>
+
 		<script type="text/javascript">
 			$(document).ready(function(){
 	   			$('.carousel').carousel({
