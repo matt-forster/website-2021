@@ -22,10 +22,7 @@
 .center{
     text-align: center;
     padding-bottom: 25px;
-}
 
-#top{
-    background-color: #FFF;   
 }
 
 .divider{
@@ -81,7 +78,7 @@
     top: 0;
     left: 0;
     height: 500px;
-    background-color: #FFF;
+    background-color: black;
 }
 
 .carousel,
