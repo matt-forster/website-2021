@@ -1,6 +1,5 @@
 
 <!-- NAVBAR --------------------------------------------------------------- -->
-<div class="navbar-wrapper">
 	<div class="container">
 		<div class="navbar navbar-fixed-top">
 			<div class="navbar-inner">
@@ -74,4 +73,3 @@
 			</div> <!-- /inner -->
 		</div> <!-- /navbar -->
 	</div> <!-- /container -->
-</div> <!-- /navbar-wrapper -->
