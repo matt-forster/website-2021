@@ -1,6 +1,6 @@
 <div class="container"> <!-- welcome wrapper -->
 	<div class="row center">
-		<div class="span12">
+		<div class="span12" id="blurb">
 			<p class="feature">Hello! 
 				<?php 
 					echo
