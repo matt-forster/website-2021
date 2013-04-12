@@ -7,7 +7,7 @@
 
 <!-- CAROUSEL ------------------------------------------------------------- -->
     <div class="car-back"></div>
-	<div id="top" class="carousel slide">
+	<div id="top" class="carousel slide hidden-phone">
 	  <!-- Carousel items -- -->
 	  <div class="carousel-inner">
       	<div class="active item">
