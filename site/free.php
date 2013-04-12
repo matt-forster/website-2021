@@ -28,7 +28,7 @@
              <img id="liislogo" src="../img/pro-placehold.jpg" alt="LIIS Logo">
         </div>
 	    <div class="span8">
-            <span class="feature">Have a project?</span><span class="muted smaller"> I can help!</span>
+            <p class="feature">Have a project?<span class="muted smaller"> I can help!</span></p>
             <p class="desc">I have a plethora of skills, and I am always looking to learn more! I take on many projects, whether they be small or large. Don't hesitate to contact me with any ideas you might have!
             <span class="highlight3">I am confident that I can create something extraordinary.</span>
             <ul>
