@@ -25,7 +25,8 @@
 
 <!-- Projects -->
 <div class="container">
-    <p> Unfortunately, because I am relatively new at this, I have no projects to show off here! When I am finished with any projects, here is where they will end up.</p>
+	<div class="divider"><hr /></div>
+    <p class="center feature"> Unfortunately, because I am relatively new at this, I have no projects to show off here! <span class="small muted">When I am finished with any projects, here is where they will end up.</span></p>
 </div>
 
 <?php
