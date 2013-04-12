@@ -19,9 +19,10 @@
 </div> <!-- /container -->
 		
 <!-- Scripts -------------------------------------------------------------- -->
-		<script src="../js/vendor/bootstrap.js"></script>
+		
         
         <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+        <script src="../js/vendor/bootstrap.js"></script>
         <script src="../js/vendor/plugins.js"></script>
         <script src="../js/main.js"></script>
 
