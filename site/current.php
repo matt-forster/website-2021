@@ -51,33 +51,17 @@
     <!-- LIIS -->
     <div class="row"><hr>
 	    <div class="span8" id="LIIS">
-            <span class="feature">LIIS </span><span class="muted smaller">Lab Information Indexing System</span>
-            <p class="desc"><strong>The lab information indexing system is my first large projects. </strong>Created for the Lethbridge Research Center, Aliquam venenatis adipiscing sem, at accumsan neque gravida non.<br><br> Nulla nec eros at nibh vulputate dignissim vel vehicula dui. Proin scelerisque tristique orci id semper. 
-                Aliquam erat volutpat. <span class="highlight1">Maecenas ipsum turpis,</span> Donec vel diam lorem.<br> pretium vel vehicula a, commodo ut nunc. </p>
+            <span class="feature">LIIS </span><span class="muted smaller">Lab Information Indexing System <a href="http://github.com/align/liis">github/align/liis</a></span>
+            <p class="desc"><strong>The lab information indexing system is my first large projects. </strong>Created for the Lethbridge Research Center, it is a <span class="highlight1"> database with a web-driven interface </span>, focused on simple, easy use (something that is of scarce quantity in science labs). </p>
             <a data-toggle="modal" href="#liismodal" class="btn">More Information</a>
 	    </div>
         <div class="span4">
-             <span id="date" class="pull-right muted">Winter 2013</span>
+             <span id="date" class="pull-right muted">Winter 2012</span>
              <img id="liislogo" src="../img/liislogo.png" alt="LIIS Logo">
         </div>
     </div>
-
-    <div class="divider"><hr></div>
-    <!-- Placeholder -->
-    <div class="row">
-        <div class="span4">
-             <span id="date" class="pull-left muted">Winter 2013</span>
-             <img id="liislogo" src="../img/project-placehold.jpg" alt="LIIS Logo">
-        </div>
-        <div class="span8">
-            <span class="feature">Placeholder </span><span class="muted smaller">Description</span>
-            <p class="desc"><strong>First strong sentance. </strong>Created for the Lethbridge Research Center, Aliquam venenatis adipiscing sem, at accumsan neque gravida non.<br><br> <span class="highlight1">Nulla nec eros at nibh vulputate dignissim vel vehicula dui. Proin scelerisque tristique orci id semper.</span> 
-                Aliquam erat volutpat. Donec vel diam lorem.<br> faucibus a nisi. Maecenas ipsum turpis, pretium vel vehicula a, commodo ut nunc. 
-                <span class="highlight1">Vivamus ac odio eget ipsum dignissim vestibulum.</span> <br>
-                eu urna. ibh lobortis in. Ut eu orci risus. Nulla mollis metus laoreet nunc ullamcorper lobortis.</p>
-	    </div>
-    </div>
-</div>
+    
+</div><!-- /container -->
 
 
 <div class="container">  
@@ -87,12 +71,14 @@
             <h3>LIIS</h3>  
         </div>  
         <div class="modal-body">
-            Extra Pictures and description goes here.
+            <p>Created during my second year at the lethbridge college, I have been continually working on improvements. I have learnt many things during the development, including how to manage a team, and the ins and outs of the Systems Development Life Cycle.</p>
+            <a href="../img/liissearch.PNG" class="thumbnail"><img data-src="../img/liissearch.PNG" alt="search-thumbnail"></a>
+            <a href="../img/liisview.PNG" class="thumbnail"><img data-src="../img/liisview.PNG" alt="view-thumbnail"></a>
+            <a href="../img/liisedit.PNG" class="thumbnail"><img data-src="../img/liissearch.PNG" alt="edit-thumbnail"></a>
         </div>  
         <div class="modal-footer">  
             <a class="btn" data-dismiss="modal">Close</a>  
         </div>  
-        </form> 
     </div>  
     <p> 
 </div>

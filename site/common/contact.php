@@ -60,6 +60,6 @@
         
 	</div> <!-- row -->
 	<div class="row center" id="contacttext">
-		<p>Contact me via <a href="http://linkedin.ca/in/mattforster"target="_blank">LinkedIn</a>, <a href="http://twitter.com/frostyforster" target="_blank">Twitter</a> or <a href="mailto:forster.matth@gmail.com" target="_blank">eMail</a>.
+		<p>Contact me via <a href="http://linkedin.ca/in/mattforster"target="_blank">LinkedIn</a>, <a href="http://twitter.com/frostyforster" target="_blank">Twitter</a> or <a href="mailto:forster.matth@gmail.com" target="_blank">email</a>.
 	</div>
 </div> <!-- /container -->
