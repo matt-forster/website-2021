@@ -10,11 +10,11 @@
 	  <!-- Carousel items -- -->
 	  <div class="carousel-inner">
       	<div class="active item">
-			<a href="#LIIS"> <img src="../img/intro.jpg" alt="clouds"></a>
+			<img src="../img/introcurr.jpg" alt="Matt Forster">
 		</div> <!-- /item -->
       
 		<div class="item">
-			<a href="#LIIS"> <img src="../img/liisslide.jpg" alt="clouds"></a>
+			<a href="#LIIS"> <img src="../img/liisslide.jpg" alt="Lab Information Indexing System"></a>
 		</div> <!-- /item -->
         
 	  </div> <!-- /inner -->

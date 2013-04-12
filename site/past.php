@@ -10,11 +10,7 @@
 	  <!-- Carousel items -- -->
 	  <div class="carousel-inner">
 		<div class="active item">
-			<img src="../img/water.jpg" alt="water">
-			<div class="carousel-caption">
-				<p class="lead"><span class="highlight2">Past Projects</span></p>
-				<p><small>Placeholder</small></p>
-			</div> <!-- /caption -->
+			<img src="../img/intropast.jpg" alt="Matt Forster">
 		</div> <!-- /item -->
 	  </div> <!-- /inner -->
 	</div> <!-- /carousel -->
