@@ -58,9 +58,6 @@
                         <li>
                             <a href="/downloads/MattForster.pdf" target="_blank">Resume</a>
                         </li>
-                        <li>
-                            <a href="/blog">Blog</a>
-                        </li>
                     </ul>
     
                     <!-- Right Menu -- -->
