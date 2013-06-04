@@ -16,8 +16,8 @@
 				I\'ve dreamed of working for NASA, and I\'ve made it a goal in my life to <span class="'.$highlight.'"> help the human race 
 				move forward in some significant way</span>. <br><br>
 
-				Just Finishing my Computer Information Technology diploma at the Lethbridge College, I am planning on attending the
-				University of Lethbridge and finishing my bachelors degree.
+				Having finished my Computer Information Technology diploma at the Lethbridge College, I am now attending the
+				University of Lethbridge and finishing my bachelors degree, with a co-op designation.
                     
                     ';
                 ?>

@@ -60,9 +60,9 @@
         <div class="modal-body">
           <p>Created during my second year at the lethbridge college, I have been continually working on improvements.<br><br> I have learnt many things during the development, including how to manage a team, and the ins and outs of the Systems Development Life Cycle.<br></p>
             <div class="center" id="thumbs">
-            	<div id="thumb"><a href="../img/liissearch.PNG" class="thumbnail"><img src="../img/liissearch.PNG" alt="search-thumbnail" height="150" width="100"></a></div>
-            	<div id="thumb"><a href="../img/liisview.PNG" class="thumbnail"><img src="../img/liisview.PNG" alt="view-thumbnail" height="150" width="100"></a></div>
-            	<div id="thumb"><a href="../img/liisedit.PNG" class="thumbnail"><img src="../img/liissearch.PNG" alt="edit-thumbnail" height="150" width="100"></a></div>
+            	<div id="thumb"><a href="../img/liissearch.PNG" class="thumbnail" target="_blank"><img src="../img/liissearch.PNG" alt="search-thumbnail" height="150" width="100" /></a></div>
+            	<div id="thumb"><a href="../img/liisview.PNG" class="thumbnail" target="_blank"><img src="../img/liisview.PNG" alt="view-thumbnail" height="150" width="100" /></a></div>
+            	<div id="thumb"><a href="../img/liisedit.PNG" class="thumbnail" target="_blank"><img src="../img/liissearch.PNG" alt="edit-thumbnail" height="150" width="100" /></a></div>
             </div>
         </div>  
         <div class="modal-footer">  

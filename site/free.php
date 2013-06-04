@@ -30,19 +30,19 @@
 	    <div class="span8">
             <p class="feature">Have a project?<span class="muted smaller"> I can help!</span></p>
             <p class="desc">I have a plethora of skills, and I am always looking to learn more! I take on many projects, whether they be small or large. Don't hesitate to contact me with any ideas you might have!
-            <span class="highlight3">I am confident that I can create something extraordinary.</span>
-            <ul>
-            	<strong>
-                    <li>Project Design <span class="muted">from the ground up.</span></li>
-                    <li>Maintenance Programming</li>
-                    <li>New Features</li>
-                    <li>Systems Consulting</li>
-                    <li>Web Applications</li>
-                    <li>Desktop Applications</li>
-                    <li>Mobile Applications</li>
-                </strong>
-            </ul>
-            I love creating, so why not let me create for you?
+                <span class="highlight3">I am confident that I can create something extraordinary.</span>
+                <ul>
+                    <strong>
+                        <li>Project Design <span class="muted">from the ground up.</span></li>
+                        <li>Maintenance Programming</li>
+                        <li>New Features</li>
+                        <li>Systems Consulting</li>
+                        <li>Web Applications</li>
+                        <li>Desktop Applications</li>
+                        <li>Mobile Applications</li>
+                    </strong>
+                </ul>
+                I love creating, so why not let me create for you?
             </p>
             
             <a target="_blank" href="https://www.elance.com/s/matthforster/" class="btn btn-highlight3">Vist My Elance profile to hire me.</a>
