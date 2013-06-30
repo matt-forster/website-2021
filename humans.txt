@@ -3,11 +3,7 @@
 
 # TEAM
 
-    <name> -- <role> -- <twitter>
-
-# THANKS
-
-    <name>
+    Matt Forster -- Designer -- @frostyforster
 
 # TECHNOLOGY COLOPHON
 
