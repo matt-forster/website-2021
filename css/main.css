@@ -53,6 +53,16 @@ a, a:hover {
     color: #6FCC66;
 }
 
+#TW {
+    letter-spacing: 1px;
+    font-size: 11pt;
+    color: grey;
+}
+
+#TW:hover {
+    color: darkorange;
+}
+
 @media screen and (max-width: 780px){
     .container{
         width: 400px;
@@ -91,5 +101,9 @@ a, a:hover {
 
     #contacts {
         letter-spacing: 3px;
+    }
+
+    #avatar{
+        margin-left: -25px;
     }
 }
