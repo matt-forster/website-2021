@@ -1,22 +1,41 @@
 
+#header {
+    margin-top: 200px;
+    font-size: 6em;
+    font-weight: 700;
+}
 
-/* ==========================================================================
-   Author's custom styles
-   ========================================================================== */
+#hr {
+    width: 80%;
+    margin-top: -40px;
+}
 
+#contacts {
+    font-family: monospace;
+    font-size: 12pt;
+    font-weight: 100;
+    letter-spacing: 5px;
+}
 
+#avatar {
+    height: 10%;
+    width: 15%;
+    border-radius: 100px;
+}
+a {
+    color: black;
+}
+a, a:hover {
+    text-decoration: none;
+}
 
+#RS:hover {
+    color: #BB553E;
+}
+#LI:hover {
+    color: #6AB4CD;
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
+#GH:hover {
+    color: #6FCC66;
+}
