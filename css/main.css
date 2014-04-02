@@ -34,6 +34,7 @@
     width: 100px;
     border-radius: 100px;
 }
+
 a {
     color: black;
 }
@@ -58,16 +59,37 @@ a, a:hover {
     }
 
     #header {
-        margin-top: 200px;
         font-size: 4em;
-        font-weight: 700;
+        margin-top: 30%;
+        margin-bottom: 50px;
     }
 
     #avatar {
+        position: absolute;
         top: 10%;
-        height: 100px;
-        width: 100px;
-        border-radius: 100px;
-        z-index: -1;
+        left: 37%;
+    }
+
+    #hr {
+        padding-top: 15px;
+        width: 100%;
+
+    }
+}
+
+@media screen and (max-width: 480px){
+    .container{
+        width: 300px;
+    }
+
+    #header {
+        text-align: center;
+        margin-left: 20px;
+        margin-top: 200px;
+        font-size: 2em;
+    }
+
+    #contacts {
+        letter-spacing: 3px;
     }
 }
