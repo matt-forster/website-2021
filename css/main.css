@@ -1,3 +1,15 @@
+#grad{
+    top: 0px;
+    position: absolute;
+    background: -webkit-radial-gradient(lightgrey 5%, white 95%); /* Safari 5.1 to 6.0 */
+    background: -o-radial-gradient(lightgrey 5%, white 95%); /* For Opera 11.6 to 12.0 */
+    background: -moz-radial-gradient(lightgrey 5%, white 95%); /* For Firefox 3.6 to 15 */
+    background: radial-gradient(lightgrey 5%, white 95%); /* Standard syntax */
+    background-repeat: no-repeat;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+}
 
 #header {
     margin-top: 200px;
