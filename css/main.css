@@ -72,7 +72,8 @@ a, a:hover {
     #header {
         font-size: 4em;
         margin-top: 200px;
-        margin-bottom: 50px;
+        margin-bottom: 50px; 
+        margin-left: 25%;
     }
 
     #avatar {
@@ -84,11 +85,22 @@ a, a:hover {
     #hr {
         padding-top: 15px;
         width: 100%;
+        margin-left: -100px;
+    }
 
+    #contacts {
+        width: 375px;
+        text-align: center;
+        margin-left: -38px;
     }
 }
 
 @media screen and (max-width: 480px){
+    .row {
+        margin-left: 27px;
+        margin-right: 0;
+    }
+
     .container{
         width: 300px;
     }
@@ -97,6 +109,7 @@ a, a:hover {
         height: 80px;
         width: 80px;
         left: 137px;
+        margin-left: -15px;
     }
 
     #header {
@@ -110,7 +123,4 @@ a, a:hover {
         letter-spacing: 3px;
     }
 
-    #avatar{
-        margin-left: -25px;
-    }
 }
