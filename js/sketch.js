@@ -25,7 +25,7 @@ function drawGrid() {
   var FIRST = color(49, 121, 237);
   var SECOND = color(44, 204, 76);
 
-  var squareDimension = 50;
+  var squareDimension = 80;
   var space = 10;
   var gridWidth = 8;
   var gridMaxHeight = 8;
