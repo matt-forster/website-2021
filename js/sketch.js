@@ -27,7 +27,7 @@ function drawGrid() {
 
   var squareDimension = 80;
   var space = 10;
-  var gridWidth = 8;
+  var gridWidth = 12;
   var gridMaxHeight = 8;
   var normalizeHeight = normalizeRange(0, gridMaxHeight);
   var normalizeWidth = normalizeRange(0, gridWidth);
@@ -46,7 +46,7 @@ function drawGrid() {
       var verticalOffset = offset * (y + 1);
 
       var squareColor = findColor(
-        findColor(FIRST, SECOND, (x + noise(x, y) * 2 + normalizeMouseX(posX) * 4), normalizeWidth),
+        findColor(FIRST, SECOND, (x + noise(x, y) * 2 + normalizeMouseX(posX) * 6), normalizeWidth),
         findColor(FIRST, SECOND, (y + normalizeMouseY(posY) * 2), normalizeHeight),
         0.5
       );
