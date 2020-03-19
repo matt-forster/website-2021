@@ -1,7 +1,7 @@
 /* eslint-disable */
 
 function setup() {
-  var canvas = createCanvas(windowWidth, windowHeight);
+  var canvas = createCanvas(window.innerWidth, window.innerHeight);
   canvas.parent('squares');
 }
 
@@ -25,17 +25,18 @@ function drawGrid() {
   var FIRST = color(49, 121, 237);
   var SECOND = color(44, 204, 76);
 
-  var squareDimension = 80;
-  var space = 10;
-  var gridWidth = 12;
-  var gridMaxHeight = 8;
+  var squareDimension = 70;
+  var space = 7;
+  var gridWidth = (window.innerWidth / squareDimension) - 2;
+  var gridMaxHeight = (window.innerHeight / squareDimension) - 2;
+
   var normalizeHeight = normalizeRange(0, gridMaxHeight);
   var normalizeWidth = normalizeRange(0, gridWidth);
-  var normalizeMouseX = normalizeRange(0, windowWidth);
-  var normalizeMouseY = normalizeRange(0, windowHeight);
+  var normalizeMouseX = normalizeRange(0, window.innerWidth);
+  var normalizeMouseY = normalizeRange(0, window.innerHeight);
 
-  posX = pmouseX || windowWidth / 2;
-  posY = pmouseY || windowHeight / 2;
+  posX = pmouseX || window.innerWidth / 2;
+  posY = pmouseY || window.innerHeight / 2;
 
   var offset = squareDimension + space;
   strokeWeight(0);
@@ -52,7 +53,7 @@ function drawGrid() {
       );
 
       fill(squareColor);
-      rect(windowWidth - horizontalOffset, windowHeight - verticalOffset, squareDimension, squareDimension, 7);
+      rect(window.innerWidth - horizontalOffset, window.innerHeight - verticalOffset, squareDimension, squareDimension, 7);
     }
 
     if (noise(x, y) <= 0.6) gridMaxHeight -= 1;
@@ -68,11 +69,8 @@ function draw() {
 
 function mouseMoved() {
   redraw();
-  return false;
 }
 
 function windowResized() {
-  clear();
-  redraw();
-  return false;
+  resizeCanvas(window.innerWidth, window.innerHeight)
 }
