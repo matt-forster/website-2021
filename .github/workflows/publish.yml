@@ -13,8 +13,6 @@ jobs:
       - uses: actions/setup-node@v2-beta
       - run: yarn install --frozen-lockfile
       - name: Setup Git
-        run: |
-          git config --local user.email "hey@mattforster.ca"
-          git config --local user.name "Matt Forster"
+        run: git config --local user.email "bot@mattforster.ca"
       - name: Build & Publish
         run: yarn push
