@@ -1,6 +1,6 @@
 {
   "name": "website",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "playground",
   "main": "index.html",
   "scripts": {
@@ -12,7 +12,8 @@
     "parcel:build": "parcel build src/index.html",
     "add:meta": "cp 404.html ./dist && cp CNAME ./dist",
     "build": "npm-run-all -s clean postcss:build parcel:build add:meta",
-    "start": "npm-run-all -s clean -p postcss:watch parcel:serve"
+    "start": "npm-run-all -s clean -p postcss:watch parcel:serve",
+    "push": "npm run build && git branch -D release ; git subtree split --prefix dist -b release && git push -f origin release:release"
   },
   "repository": {
     "type": "git",
