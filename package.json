@@ -4,9 +4,9 @@
   "description": "playground",
   "main": "index.html",
   "scripts": {
-    "clean": "rm -rf dist .cache && rm -rf src/css",
-    "postcss:watch": "postcss src/index.pcss -o src/css/index.css --env development -w",
-    "postcss:build": "postcss src/index.pcss -o src/css/index.css --env production",
+    "clean": "rm -rf dist .cache",
+    "postcss:watch": "postcss src/index.pcss -o dist/index.css --env development -w",
+    "postcss:build": "postcss src/index.pcss -o dist/index.css --env production",
     "parcel:serve": "parcel src/index.html",
     "parcel:watch": "parcel watch src/index.html",
     "parcel:build": "parcel build src/index.html",
