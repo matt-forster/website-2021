@@ -5,8 +5,10 @@ plugins:
   postcss-fontpath:
     checkFiles: true
     ie8Fix: true
-  tailwindcss: "tailwind.config.js"
-  # '@fullhuman/postcss-purgecss': ".purgecssrc.js"
+  tailwindcss: "./tailwind.config.js"
+  postcss-font-magician:
+    hosted: ["./fonts"]
   autoprefixer: true
+
 
 # purge-css
