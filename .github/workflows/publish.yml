@@ -10,9 +10,11 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
+      - uses: actions/setup-node@v2-beta
+      - run: yarn install --frozen-lockfile
       - name: Setup Git
         run: |
           git config --local user.email "hey@mattforster.ca"
           git config --local user.name "Matt Forster"
       - name: Build & Publish
-        run: npm run push
+        run: yarn push
