@@ -11,5 +11,5 @@ jobs:
       - run: yarn install --frozen-lockfile
       - run: git config --local user.email "bot@mattforster.ca"
       - run: yarn build
-      - run: git add . && git commit -m "build: dist" && git push
+      - run: git add . && git commit -m "build dist" && git push
       - run: yarn push
